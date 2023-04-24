@@ -6,8 +6,11 @@
 }
 
 body {
+  margin: 20px;
   font-family: "Inter", sans-serif;
-  background: #ede8ed;
+  background: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -146,6 +149,9 @@ section {
 }
 .content-container{
   background-image: linear-gradient(to right, #6ceade,white);
+  border-radius: 8px; 
+  margin-left: 3%;
+  margin-right: 3%;
 }
 .table-contro-button{
   border-radius: 8px;
@@ -171,6 +177,7 @@ section {
 .grid-content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 10px;
  
 }
 .info-div{
