@@ -249,3 +249,4 @@ const logout = async () => {
 };
 
 document.getElementById("group-id").innerHTML = getGroupNumber();
+document.getElementById("logout-btn").addEventListener("click", logout);
